@@ -38,7 +38,7 @@ class Product:
         print("Product ISBN-10: " + self.ID,"\nPrice: " + str(self.price)+"£","\nIs this product included in Prime?: " + self.prime_eligible,
               "\nAvailable in stock: " + str(self.number_in_stock),"\nDate added: " + self.date_added)
         
-#Angela Pellillo 21499500        
+#Angela Pellillo       
 
 class Book(Product):
     def __init__(self,ID, price, prime_eligible, number_in_stock, date_added, title, author, num_pages, publisher, publication_date):
@@ -91,7 +91,7 @@ b3 = Book("3125776929",11.04, "Not included", 12, "Sept. 2015", "The Handmaid's 
 b3.print_book_info() 
 print("\n")
 
-#Angela Pellillo 21499500
+#Angela Pellillo 
 #Below setters and getters from book and product class to test the objects created (all the updated info below is purely fictional. Unfortunately.)
 print("Updated info on the following books!")
 b1.set_title("The Notebook - Hard Cover")
