@@ -1,4 +1,4 @@
-# Angela Pellillo 21499500
+# Angela Pellillo
 
 class Product:
     def __init__(self, ID, price, prime_eligible, number_in_stock, date_added):
